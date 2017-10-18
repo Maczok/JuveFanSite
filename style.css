@@ -1,0 +1,139 @@
+body {
+	background:#FFF ;
+	color: #000;
+}
+
+section {
+	margin: 10vh 0;
+	
+}
+
+h1 {
+	text-align: center;
+}
+.container-fluid {
+	padding: 0;
+}
+/*Header*/
+
+header {
+	background: url('https://pbs.twimg.com/media/DG4ie1ZWAAAvoL2.jpg');
+	background-position: center;
+	height: 25vh;
+}
+header small {
+	color: #FDC600;
+}
+
+/*Nawigacja*/
+nav {
+	background: white;
+	text-align: center;
+	
+}
+
+nav .btn {
+	color: black;
+	background: white;
+	border-color: black;
+}
+
+
+nav .btn:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:active:focus  {
+	background: #FDC600;
+	color: black;
+	outline: none;
+}
+.nav-button-1 {
+	display: inline-block;
+}
+nav .btn span {
+	padding: 0 8px;
+}
+
+
+/*sekcja z kadrą*/
+
+
+.squad .row div .player img {
+	background-color: #000;
+	position: relative;
+	height: 15vh;
+}
+
+
+#number {
+	position: absolute;
+	font-size: 25px;
+	align-self: center;
+	color:#FDC600;
+	display:none;
+}
+
+#bio, #stats, #trophy {
+	color: black;
+	text-align: center;
+}
+
+.thumbnail {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+
+.squad .row div div img:hover + #number {
+	display:block;
+} 
+
+.caption {
+	text-align: center;
+	width: 100%;
+}
+/*Wyniki*/
+
+/*Puchary*/
+.modal-content {
+	padding: 25px;
+	text-align: justify;
+}
+
+/*Footer*/
+footer {
+	background: black;
+	text-align: center;
+	color: white;
+}
+footer .container .row-flex {
+	display: flex;
+}
+footer .container .row-flex .left-side {
+	align-self: center;
+}
+
+
+@media (max-width:767px){
+	header small {
+		display: block;
+	}
+	#number {
+		display: block;
+		/*color: black;*/
+	}
+	nav .container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	nav .container button {
+		margin: 10px 0;
+	}
+	footer .container .row-flex {
+		flex-direction: column;
+		justify-content: center;
+	}
+	/*.s-align {*/
+	/*	text-align: right;*/
+	/*}*/
+}
