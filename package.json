@@ -1,0 +1,30 @@
+{
+  "name": "juvefanpage",
+  "version": "1.0.0",
+  "description": "Fan page for juve fans",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maciejduda1/JuveFanSite.git"
+  },
+  "keywords": [
+    "Juventus",
+    "Kodilla",
+    "webpage"
+  ],
+  "author": "Maciej Duda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maciejduda1/JuveFanSite/issues"
+  },
+  "homepage": "https://github.com/maciejduda1/JuveFanSite#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
